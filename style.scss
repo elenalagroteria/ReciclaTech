@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONTES, organizada por Poppins e depois Inter */
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 10vh;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Poppins';
+    font-size: 16px;    
+}
+
+h3 {
+    font-family: 'Poppins';
+    color:#16A34A;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #4B5563;
+    line-height: 1.4;
+}
+
+h5 {
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 5vh;
+    margin: 3vh;
+    border-bottom: 2px solid #B4AEAE;
+    
+.logo {
+    max-height: 12vh;
+    display: block;
+}
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2vh 10vh;
+
+    
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 3vh;
+    font-family: 'Poppins';
+    color: #4B5563;
+    
+}
+
+li{
+    padding: 0vh 3vh;
+}
+
+a{
+    text-decoration: none;
+    color: #4B5563;
+}
+}
+
+/* BOTÃO DENTRO DA HEADER */
+
+.btnheader {
+    background-color:#16A34A;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    width: 26vh;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+
+/* INTRO SITE */
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vh 7vh;
+
+}
+
+.recicla {
+    width: 74vh;
+}
+
+
+/* BOTÕES DENTRO DA INTRO */
+
+.btnDoar {
+    background-color:#16A34A;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 26vh;
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin: 4vh 0vh;
+    padding: 2vh;
+}
+
+.imgdoar {
+    margin: -0.3vh 0.7vh;
+    width: 2.5vh;
+}
+
+.imgadq {
+    margin: -0.3vh 0.7vh;
+    width: 2.5vh;
+}
+
+
+.btnAdq {
+    color: #2563EB;
+    border: solid 2px #2563EB;
+    border-radius: 8px;
+    width: 26vh;
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 2vh;
+    margin: 6vh;
+}
+
+
+/* DADOS DOS USUÁRIOS */
+
+.dados {
+    display: flex;
+    padding: 5px;
+    margin: 5vh 0vh;
+    background-color: #F3F5F8;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+.dadosdiv {
+    padding: 0px;
+    margin: 2vh;
+}
+}
+
+/* COMO FUNCIONA */
+
+.comofunciona{
+    margin: 2vh 7vh;
+}
+
+.boxdoareseadq {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F3F5F8;
+    margin: 2vh;  
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+    padding: 0vh;
+}
+
+.comofuncionadoa {
+    font-family: inter;
+    font-weight: 400;
+    color: #16A34A;
+    font-size: 3.5vh;
+    padding: 3vh 0vh;
+
+img {
+    margin: -1.6vh 0vh;
+    padding-right: 2vh;
+}
+}
