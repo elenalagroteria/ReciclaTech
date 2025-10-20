@@ -14,7 +14,7 @@ h1 {
 
 h2 {
     font-family: 'Poppins';
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 p {
@@ -47,12 +47,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2vh 5vh;
-    margin: 3vh;
+    padding: 1rem 3rem;
+    margin: 0rem 4rem;
     border-bottom: 2px solid #B4AEAE;
     
 .logo {
-    max-height: 12vh;
+    max-height: 10rem;
     display: block;
 }
 }
@@ -60,21 +60,21 @@ header {
 .nav {
     display: flex;
     justify-content: flex-end;
-    padding: 2vh 10vh;
+    padding: 2vh 6vh;
 
     
 ul{
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    padding: 3vh;
+    padding: 0.5rem 1rem;
     font-family: 'Poppins';
     color: #4B5563;
     
 }
 
 li{
-    padding: 0vh 3vh;
+    padding: 0vh 2vh;
 }
 
 a{
@@ -90,7 +90,8 @@ a{
     color: #ffffff;
     border: none;
     border-radius: 10px;
-    width: 26vh;
+    width: 11rem;
+    max-height: 4rem;
     font-family: 'Poppins';
     font-size: 16px;
 }
@@ -102,12 +103,11 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2vh 7vh;
-
+    margin: 2rem 7rem;
 }
 
 .recicla {
-    width: 74vh;
+    width: 32rem;
 }
 
 
@@ -118,21 +118,21 @@ a{
     color: #ffffff;
     border: none;
     border-radius: 8px;
-    width: 26vh;
+    width: 12rem;
     font-family: 'Poppins';
     font-size: 16px;
-    margin: 4vh 0vh;
-    padding: 2vh;
+    margin: 2rem 0rem;
+    padding: 1rem;
 }
 
 .imgdoar {
-    margin: -0.3vh 0.7vh;
-    width: 2.5vh;
+    margin: -0.1rem 0.4rem;
+    width: 1rem;
 }
 
 .imgadq {
-    margin: -0.3vh 0.7vh;
-    width: 2.5vh;
+    margin: -0.1rem 0.4rem;
+    width: 1rem;
 }
 
 
@@ -140,11 +140,11 @@ a{
     color: #2563EB;
     border: solid 2px #2563EB;
     border-radius: 8px;
-    width: 26vh;
+    width: 12rem;
     font-family: 'Poppins';
     font-size: 16px;
-    padding: 2vh;
-    margin: 6vh;
+    padding: 1rem;
+    margin: 2rem;
 }
 
 
@@ -153,7 +153,7 @@ a{
 .dados {
     display: flex;
     padding: 5px;
-    margin: 5vh 0vh;
+    margin: 5rem 0rem;
     background-color: #F3F5F8;
     justify-content: space-evenly;
     align-items: center;
@@ -161,31 +161,33 @@ a{
 
 .dadosdiv {
     padding: 0px;
-    margin: 2vh;
+    margin: 2rem;
 }
 }
 
 /* COMO FUNCIONA */
 
 .comofunciona{
-    margin: 2vh 7vh;
+    margin: 5rem 7rem;
 }
 
 .boxdoareseadq {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3vh;
+    margin-top: 3vh;
+}
+
+.doadores, .adquirentes {
     background-color: #F3F5F8;
-    margin: 2vh;  
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    text-decoration: none;
-    padding: 0vh;
+    padding: 2vh 7vh;
+    width: 550px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;    
 }
 
 .comofuncionadoa {
@@ -199,4 +201,249 @@ img {
     margin: -1.6vh 0vh;
     padding-right: 2vh;
 }
+}
+
+.comofuncionaadq {
+    font-family: inter;
+    font-weight: 400;
+    color: #2563EB;
+    font-size: 3.5vh;
+    padding: 3vh 0vh;
+img {
+    margin: -1.6vh 0vh;
+    padding-right: 2vh;
+}    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+li {
+    display: flex;
+    text-decoration: none;
+    padding: 0rem;
+    align-items: center;
+
+    
+    .topico {
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+.negrito {
+    font-weight: 600;
+    margin-top: 1rem 0rem;
+}
+
+/* PRODUTOS DISPONÍVEIS */
+
+.produtosdisponiveis {
+        background-color: #F3F5F8;
+}
+
+.disponiveis {
+    margin: 2rem 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 2rem 2rem 4rem;
+}
+
+.titulosprodutos {
+    padding: 3rem 0rem 0rem 7rem;    
+}
+
+.dispobox {
+    border: solid 3px #16A34A;
+    width: 18rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+img {
+    padding: 0rem;
+    align-items: stretch;
+    align-content: center;
+}
+}
+
+.prod {
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+    color: #4B5563;
+}
+
+.txtdispobox {
+    padding: 1rem;
+    text-align: center;
+}
+
+.btndispobox {
+    background-color:#16A34A;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 12rem;
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+h6 {
+    font-family: 'Inter';
+    font-size: 1.5rem;
+}
+
+/* RELATOS DOS CONSUMIDORES */
+
+.relatos {
+    margin: 5rem 7rem;    
+}
+
+.relatosboxpai {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+
+.relatobox {
+    width: 23rem;
+    height: 17.5rem;
+    border: 1px solid #9CA3AF;
+    box-shadow: -3px 0px #9CA3AF;
+    border-radius: 0.5rem;
+    padding: 1.4rem;
+    margin: 3.5em;
+    display: flex;
+    flex-direction: column;
+    
+.estrelas {
+    width: 9rem;
+    padding-bottom: 0.5rem;
+}
+}
+
+.nomepai {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: auto;
+}
+
+.nomerelato {
+    font-weight: 500;
+}
+
+.tiporelato {
+    color: #6B7280;
+}
+
+.relato {
+    color: #4B5563; 
+}
+
+
+/* PRONTO PARA FAZER A DIFERENÇA */
+
+.diferenca {
+    padding: 7rem 0rem;
+    text-align: center;
+    background-color: #F3F5F8;
+}
+
+.comunidade {
+    font-size: 1.5rem;
+    margin: 0rem 7rem;
+}
+
+.comecar {
+    background-color:#16A34A;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 12rem;
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.saber {
+    color:#16A34A;
+    background-color: #F3F5F8;
+    border: 0.08rem solid #16A34A;
+    border-radius: 8px;
+    width: 12rem;
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+/*  FOOTER */
+
+footer {
+    background-color: #1F2937;
+    padding: 2rem 0rem;
+}
+
+.conteudofooter {
+    margin: 5rem 7rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    border-bottom: 1px solid #4B5563;
+}
+
+.boxfooter {
+    padding: 0rem 0rem 2rem 0rem;
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+}
+
+.boxpfooter {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.titulofooter {
+    color: white;
+    font-weight: 500;
+}
+
+.afooter {
+    color: #9CA3AF;
+    font-family: 'Poppins';
+    text-decoration: none;
+    padding: 0.2rem 0rem;
+}
+
+.txtfooter {
+    color: #9CA3AF;
+}
+
+.imgfooter {
+    width: 2.5rem;
+    padding: 1rem 0.5rem 0rem 0rem;
+}
+
+.logofooter {
+    width: 16rem;
+    padding-bottom: 0.5rem;
+}
+
+.rodape {
+    text-align: center;
+    color: #9CA3AF;
 }

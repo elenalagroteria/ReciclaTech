@@ -24,7 +24,7 @@
         <!-- Menu de navegação -->
         <nav class="nav">
          <ul>
-      <li><a href="#inicio">Como funciona</a></li>
+      <li><a href="#comofunc">Como funciona</a></li>
       <li><a href="#sobre">Doar</a></li>
       <li><a href="#contato">Adquirir</a></li>
          </ul>
@@ -59,7 +59,7 @@
       
       
       <!-- Como funciona? -->
-      <section class="comofunciona">
+      <section class="comofunciona" id="comofunc">
       <h2>Como funciona?</h2>
       <h4>É mais fácil que trocar a pilha do controle!</h4>
       <article class="boxdoareseadq">
@@ -69,36 +69,66 @@
         <p>Transforme seu "lixo eletrônico" no tesouro de alguém</p>
         <ul>
           <li>
+          <article class="icone">
+          <img src="img/1verde.svg">
+          </article>
+          <article class="topico">  
           <p class="negrito">Cadastre seu eletrônico</p>
-          <br><p>Tire umas fotos, descreva o estado e pronto!</p>
+          <p>Tire umas fotos, descreva o estado e pronto!</p>
+          </article>
           </li>
           <li>
+          <article class="icone">
+          <img src="img/2verde.svg">
+          </article>
+          <article class="topico">
           <p class="negrito">Aguarde o match</p>
-          <br><p>Alguém vai se interessar pelo seu item</p>
+          <p>Alguém vai se interessar pelo seu item</p>
+          </article>
           </li>
           <li>
+          <article class="icone">
+          <img src="img/3verde.svg">
+          </article>
+          <article class="topico">
           <p class="negrito">Combine a entrega</p>
-          <br><p>Vocês decidem como fazer a entrega<p>
+          <p>Vocês decidem como fazer a entrega<p>
+          </article>
           </li>
         </ul>
       </div>
       
       <!-- Para adquirentes -->
       <div class="adquirentes">
-        <p class="comofuncionaadq">Para Adquirentes</p>
+        <p class="comofuncionaadq"><img src="img/icon_Adquirente.svg">Para adquirentes</p>
         <p>Encontre o eletrônico dos seus sonhos de graça</p>
         <ul>
           <li>
+          <article class="icone">
+          <img src="img/1azul.svg">
+          </article>
+          <article class="topico">
           <p class="negrito">Explore os itens</p>
-          <br><p>Navegue pelos eletrônicos disponíveis</p>
+          <p>Navegue pelos eletrônicos disponíveis</p>
+          </article>
           </li>
           <li>
+          <article class="icone">
+          <img src="img/2azul.svg">
+          </article>
+          <article class="topico">
           <p class="negrito">Demonstre interesse</p>
-          <br><p>Clique em "Tenho interesse" no item</p>
+          <p>Clique em "Tenho interesse" no item</p>
+          </article>
           </li>
           <li>
+          <article class="icone">
+          <img src="img/3azul.svg">    
+          </article>
+          <article class="topico">
           <p class="negrito">Receba seu novo gadget</p>
-          <br><p>Combine com o doador e seja feliz!<p>
+          <p>Combine com o doador e seja feliz!<p>
+          </article>
           </li>
         </ul>
       </div>
@@ -106,90 +136,137 @@
       </section>
       
       <!-- Produtos disponíveis -->
-      <section class="disponiveis">
+      <section class="produtosdisponiveis">
+      <section class="titulosprodutos">
       <h2>Produtos disponíveis</h2>
       <h4>Categorias mais populares</h4>
+      </section>
+      <section class="disponiveis">
       <article class="dispobox">
-        <img src="">
+        <img src="img/Produtos_fones.png">
+        <section class="txtdispobox">
         <h6>Fones</h6>
         <p class="prod">Fones em ótimo estado, prontos para uso.</p>
+        <button type="button" class="btndispobox">Quero adquirir</button>  
+      </section>
       </article>
       <article class="dispobox">
-        <img src="">
+        <img src="img/Produtos_notebook.png">
+        <section class="txtdispobox">
         <h6>Notebooks</h6>
         <p class="prod">Notebooks funcionando direitinho, prontos pra você usar.</p>
+        <button type="button" class="btndispobox">Quero adquirir</button>  
+      </section>
       </article> 
       <article class="dispobox">
-        <img src="">
+        <img src="img/Produtos_celular.png">
+        <section class="txtdispobox">
         <h6>Smartphones</h6>
         <p class="prod">Celulares em ótimo estado, prontos pra uma nova jornada.</p>
+        <button type="button" class="btndispobox">Quero adquirir</button>
+      </section>
       </article> 
+    </section>
     </section>
     
     <!-- O que o pessoal tá falando -->
     <section class="relatos">
       <h2>O que o pessoal tá falando?</h2>
       <h4>Histórias reais de quem já usou</h4>
+      <section class="relatosboxpai">
       <article class="relatobox">
-        <img src="">
-        <p class="relato">"Doei meu notebook antigo e em 2 dias já tinha alguém interessado! Ver a felicidade do estudante que recebeu não tem preço!"</p>
-        <img src="">
+        <img class="estrelas" src="img/star.svg">
+        <p class="relato">"Doei meu notebook antigo e em 2 dias já tinha alguém interessado! Ver a felicidade do estudante que recebeu não tem preço! 😊"</p>
+        <section class="nomepai">
+        <img src="img/icon_Doador.svg">
+        <section class="nomeetipo">
         <p class="nomerelato">João Santos</p>
         <p class="tiporelato">Doador</p>
+        </section>
+        <section class="nomeetipo">
       </article>
       <article class="relatobox">
-        <img src="">
-        <p class="relato">"Consegui um iPhone 12 em perfeito estado! A dona anterior cuidou super bem. Economizei uma grana e ainda ajudei o meio ambiente!"</p>
-        <img src="">
+        <img class="estrelas" src="img/star.svg">
+        <p class="relato">"Consegui um iPhone 12 em perfeito estado! A dona anterior cuidou super bem. Economizei uma grana e ainda ajudei o meio ambiente! 🌱"</p>
+        <section class="nomepai">
+        <img src="img/icon_Adquirente.svg">
+        <section class="nomeetipo">
         <p class="nomerelato">Maria Silva</p>
         <p class="tiporelato">Adquirente</p>
+        </section>
+        </section>
       </article> 
       <article class="relatobox">
-        <img src="">
-        <p class="relato">"Plataforma incrível! Já doei 3 itens e adquiri 2. A comunidade é super respeitosa e o processo é super fácil!"</p>
-        <img src="">
+        <img class="estrelas" src="img/star.svg">
+        <p class="relato">"Plataforma incrível! Já doei 3 itens e adquiri 2. A comunidade é super respeitosa e o processo é super fácil! 👏"</p>
+        <section class="nomepai">
+        <img src="img/icon_userAtivo.svg">
+        <section class="nomeetipo">
         <p class="nomerelato">Ana Costa</p>
         <p class="tiporelato">Usuária ativa</p>
-      </article>           
+        </section>
+        </section>
+      </article>
+      </section>           
     </section>
     
     <!-- Pronto para fazer a diferença? -->
     <section class="diferenca">
       <h2>Pronto para fazer a diferença?</h2>
-      <h4>Junte-se à nossa comunidade e ajude a criar um mundo mais sustentável, um eletrônico de cada vez!</h4>
+      <p class="comunidade">Junte-se à nossa comunidade e ajude a criar um mundo mais sustentável, um eletrônico de cada vez!</p>
       <button type="button" class="comecar">Começar agora</button>
-      <button type="button" class="saber">Saber Mais</button>
+      <button type="button" class="saber">Saber mais</button>
     </section>
     
     
     <!-- Footer -->
      <footer>
+      <section class="conteudofooter">
       <section>
-        <img src="img/Logo.svg" class="logofooter">
+        <section class="boxfooter">
+          <section class="boxpfooter">
+        <img class="logofooter" src="img/Logo_branco.svg" class="logofooter">
         <p class="txtfooter">Conectando pessoas através da sustentabilidade e tecnologia.</p>
+        </section>
+        </section>
       </section>
-      <section>
+      <section class="boxfooter">
+      <section class="links">
         <p class="titulofooter">Links Rápidos</p>
         <a href="" class="afooter">Como funciona</a>
         <a href="" class="afooter">Doar</a>
         <a href="" class="afooter">Adquirir</a>
         <a href="" class="afooter">Contato</a>
+        </section>
       </section>
-        <section>
+      <section class="boxfooter">
+        <section class="links">
         <p class="titulofooter">Suporte</p>
         <a href="" class="afooter">FAQ</a>
         <a href="" class="afooter">Termos de Uso</a>
         <a href="" class="afooter">Privacidade</a>
         <a href="" class="afooter">Ajuda</a>
-      </section>
+        </section>
       </section>
         <section>
+          <section class="boxfooter">
+            <section class="boxpfooter">
         <p class="titulofooter">Redes sociais</p>
         <p class="txtfooter">Siga-nos para novidades e dicas de sustentabilidade</a>
-        <a href=""><img src=""></a>
-        <a href=""><img src=""></a>
-        <a href=""><img src=""></a>
-      </section>  
+          <br>
+        <a href=""><img class="imgfooter" src="img/facebook.svg"></a>
+        <a href=""><img class="imgfooter" src="img/email.svg"></a>
+        <a href=""><img class="imgfooter" src="img/Twitter.svg"></a>
+        </section>
+        </section>
+        </section>
+        
+        </section>
+        
+        </section>
+        
+      </section>
+       <p class="rodape">© 2025 ReciclaTech. Todos os direitos reservados. Feito com 💚 para um mundo melhor.</p> 
     </footer>
     </main>
   </body>
