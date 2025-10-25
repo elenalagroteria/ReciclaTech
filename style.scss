@@ -91,7 +91,7 @@ a{
     border: none;
     border-radius: 10px;
     width: 11rem;
-    max-height: 4rem;
+    height: 3rem;
     font-family: 'Poppins';
     font-size: 16px;
 }
@@ -104,10 +104,12 @@ a{
     align-items: center;
     justify-content: space-between;
     margin: 2rem 7rem;
+    gap: 2rem;
 }
 
 .recicla {
     width: 32rem;
+    max-width: 100%;
 }
 
 
@@ -152,15 +154,15 @@ a{
 
 .dados {
     display: flex;
-    padding: 5px;
+
     margin: 5rem 0rem;
     background-color: #F3F5F8;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 
 .dadosdiv {
-    padding: 0px;
     margin: 2rem;
 }
 }
@@ -175,31 +177,32 @@ a{
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 3vh;
-    margin-top: 3vh;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
 }
 
 .doadores, .adquirentes {
     background-color: #F3F5F8;
-    padding: 2vh 7vh;
-    width: 550px;
-    border-radius: 12px;
+    padding: 1rem 2rem;
+    width: 31.5rem;
+    border-radius: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: space-between;    
+    align-items: flex-start;    
 }
 
 .comofuncionadoa {
     font-family: inter;
     font-weight: 400;
     color: #16A34A;
-    font-size: 3.5vh;
-    padding: 3vh 0vh;
+    font-size: 1.7rem;
+    padding: 1.5rem 0;
 
 img {
-    margin: -1.6vh 0vh;
-    padding-right: 2vh;
+    margin: -0.7rem 0rem;
+    padding-right: 1rem;
 }
 }
 
@@ -207,11 +210,11 @@ img {
     font-family: inter;
     font-weight: 400;
     color: #2563EB;
-    font-size: 3.5vh;
-    padding: 3vh 0vh;
+    font-size: 1.7rem;
+    padding: 1.5rem 0;
 img {
-    margin: -1.6vh 0vh;
-    padding-right: 2vh;
+    margin: -0.7rem 0rem;
+    padding-right: 1rem;
 }    
 }
 
@@ -249,6 +252,8 @@ li {
     display: flex;
     justify-content: space-evenly;
     padding: 0rem 2rem 2rem 4rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .titulosprodutos {
@@ -262,17 +267,20 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     
-img {
+.imgdispobox {
     padding: 0rem;
     align-items: stretch;
     align-content: center;
+    width: 100%;
+    height: auto;
 }
 }
 
 .prod {
     font-size: 0.9rem;
-    padding-top: 0.3rem;
     color: #4B5563;
 }
 
@@ -288,7 +296,7 @@ img {
     border-radius: 8px;
     width: 12rem;
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 1rem;
     padding: 0.5rem;
 }
@@ -306,21 +314,24 @@ h6 {
 
 .relatosboxpai {
     display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-
+    justify-content: center;
+    align-items: stretch;  
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .relatobox {
-    width: 23rem;
+    width: 100%;
+    max-width: 19rem;
     height: 17.5rem;
     border: 1px solid #9CA3AF;
     box-shadow: -3px 0px #9CA3AF;
     border-radius: 0.5rem;
     padding: 1.4rem;
-    margin: 3.5em;
+    margin: 2rem 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     
 .estrelas {
     width: 9rem;
@@ -368,7 +379,7 @@ h6 {
     border-radius: 8px;
     width: 12rem;
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 1rem;
     padding: 0.5rem;
 }
@@ -380,7 +391,7 @@ h6 {
     border-radius: 8px;
     width: 12rem;
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 1rem;
     padding: 0.5rem;
 }
@@ -393,10 +404,11 @@ footer {
 }
 
 .conteudofooter {
-    margin: 5rem 7rem;
     display: flex;
     justify-content: space-around;
     margin: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
     border-bottom: 1px solid #4B5563;
 }
 
@@ -446,4 +458,165 @@ footer {
 .rodape {
     text-align: center;
     color: #9CA3AF;
+}
+
+/* ========== RESPONSIVIDADE ========== */
+
+/* Telas até 1024px */
+@media (max-width: 1024px) {
+  header {
+    flex-wrap: wrap;
+    margin: 0rem 2rem;
+    padding: 1rem 2rem;
+  }
+
+  l {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 3rem;
+  }
+
+  .recicla {
+    width: 24rem;
+    margin-top: 2rem;
+  }
+
+  .dados {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .boxdoareseadq {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .doadores,
+  .adquirentes {
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .disponiveis {
+    justify-content: center;
+  }
+}
+
+/* Telas até 768px */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  header {
+    padding: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+
+  .btnheader {
+    width: 9rem;
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+
+  .intro {
+    margin: 1rem 1rem;
+  }
+
+  .recicla {
+    width: 18rem;
+  }
+
+  .dados {
+    flex-direction: column;
+  }
+
+  .doadores,
+  .adquirentes {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .dispobox {
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  .relatobox {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .comunidade {
+    margin: 0.2rem;
+    font-size: 1.2rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .rodape {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+}
+
+/* Telas muito pequenas até 480px */
+@media (max-width: 480px) {
+  header {
+    padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .intro {
+    margin: 1rem;
+  }
+
+  .recicla {
+    width: 14rem;
+  }
+
+  .btnDoar,
+  .btnAdq {
+    width: 10rem;
+    font-size: 14px;
+  }
+
+  .dados {
+    margin: 2rem 0;
+  }
+
+  .doadores,
+  .adquirentes {
+    width: 95%;
+  }
+
+  .dispobox {
+    max-width: 17rem;
+  }
+
+  .relatobox {
+    max-width: 17rem;
+  }
+}
 }
